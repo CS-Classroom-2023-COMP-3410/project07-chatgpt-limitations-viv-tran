@@ -1,0 +1,4 @@
+I attempted to change the main game window into a dynamically changing window that centers itself within the dancing fruit border.
+This is a reasonable request for a front-end project because we have done this before using flexbox and css-grid along with media querys, and 3rd party libraries such as tailwind.
+It was supposed to work in a way that when the user hits the start game button, the game window expands within the fruit border and is playable in the same way no matter what size it is.
+ChatGPT first failed to implement it, seeing no changes in the size of the window at all. The window expanded past the top and bottom of the border, needing to scroll up and down to see it fully. Then, it dynamically changed the window, but didn't format any of the content in the winodw. When I prompted chatGPT with that, it fixed the cards, but completely messed up the buttons and the title. Lastly, when I prompted chat again, it messed up everything even worse than before.
