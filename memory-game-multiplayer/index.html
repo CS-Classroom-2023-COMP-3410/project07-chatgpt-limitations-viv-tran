@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Memory Matching Game</title>
-  <link rel="stylesheet" href="css/project03.css">
+  <link rel="stylesheet" href="css/project03.css" />
 </head>
 <body>
 
@@ -31,7 +31,15 @@
       <span>Time: <span id="timer">00:00</span></span>
     </div>
 
+    <!-- Player Info Section -->
+    <div class="player-info">
+      <p>Player 1 Score: <span id="player1Score">0</span></p>
+      <p>Player 2 Score: <span id="player2Score">0</span></p>
+      <p>Current Turn: <span id="currentPlayer">Player 1</span></p>
+    </div>
+
     <div id="gameGrid" class="game-grid"></div>
+
     <button id="restartBtn">Restart Game</button>
   </div>
 

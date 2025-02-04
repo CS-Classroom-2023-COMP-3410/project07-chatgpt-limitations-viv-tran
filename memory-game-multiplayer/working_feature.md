@@ -1,0 +1,1 @@
+Implemented new references for two player info and also variables to track the current player and each player's score. There is a scoreboard that displays both players scores and a function that switches the player which is called when there isn't a match.

@@ -1,0 +1,1 @@
+Had to remove a lot of inline styles on the game container or grid in the javascript.
